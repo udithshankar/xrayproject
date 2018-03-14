@@ -1,0 +1,53 @@
+{% load  staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>RDS Documentation</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/style.css' %}"/>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="{%static 'mod1/js/bootstrap.min.js' %}"></script>
+  </head>
+
+  <body>
+    <!--Navbar start-->
+    <nav class="navbar navbar-default navbar-fixed-top" style="height: 67px;">
+      <div class="container">
+       <div id="navbar" class="collapse navbar-collapse">
+          <a class="navbar-brand" href="#"><h2>RDS Helpdesk</h2></a>
+          <ul class="nav navbar-nav navbar-right navbar-brand">
+            <li><a href="{% url 'mod1:home' %}">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Myaccount</a></li>
+            <l1><a href="{% url 'mod1:index' %}" style="line-height: 50px;"> logout</a></l1>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<!--Navbar End-->
+{% block body %}
+    {% endblock %}
+
+ <div class="f1">
+      <footer class="site-footer row" style="color:blue; background: black; padding-left: 10px;">
+       <div class="col-md-6"> <h3>Contact us<br></h3>
+          <p>  Email: abc@amazon.com<br>
+               Mobile no: +919906810610,+919797108430</p>
+       </div>
+       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
+        <a style="padding-right: 10px;" href="#">Why RDS?</a>
+        <a href="#">Advantages of Database in cloud</a>
+       </div> 
+      </footer>
+    </div>
+  </body>
+</html>

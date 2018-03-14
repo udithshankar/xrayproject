@@ -1,0 +1,41 @@
+{% extends 'mod1/base3.html' %}
+{% block body %}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fN5SyxnvhEg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               </div>
+            </div>    
+            <div style="font-size: 20px; text-align: justify;">  
+              PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance. As a database server, its primary functions are to store data securely and return that data in response to requests from other software applications. It can handle workloads ranging from small single-machine applications to large Internet-facing applications (or for data warehousing) with many concurrent users; on macOS Server, PostgreSQL is the default database; and it is also available for Microsoft Windows and Linux (supplied in most distributions).<br/>
+
+              PostgreSQL is ACID-compliant and transactional. PostgreSQL has updatable views and materialized views, triggers, foreign keys; supports functions and stored procedures, and other expandability.<br/>
+
+              PostgreSQL is developed by the PostgreSQL Global Development Group, a diverse group of many companies and individual contributors. It is free and open-source, released under the terms of the PostgreSQL License, a permissive software license.<br/>
+
+             <h3> Versioning policy</h3>
+
+             We always recommend that all users run the latest available minor release for whatever major version is in use.<br/>
+
+            PostgreSQL major releases include new features and occur roughly once every year. Beginning with version 10, a major release is indicated by increasing the first part of the version, e.g. 10 to 11. Before version 10, a major release was indicated by increasing either the first or second part of the version number, e.g. 9.5 to 9.6.<br/>
+
+             Major releases usually change the internal format of system tables and data files. These changes are often complex, so we do not maintain backward compatibility of all stored data. A dump/reload of the database or use of the pg_upgrade module is required for major upgrades.<br/>
+
+             Minor releases are numbered by increasing the last part of the version number. Beginning with version 10, this is the second part of the version number, e.g. 10.0 to 10.1; for older versions this is the third part of the version number, e.g. 9.5.3 to 9.5.4. The PostgreSQL team only adds bug fixes to minor releases. All users should upgrade to the most recent minor release as soon as possible. While upgrades always have some risk, PostgreSQL minor releases fix only frequently-encountered, security, and data corruption bugs to reduce the risk of upgrading. The community considers not upgrading to be riskier than upgrading.<br/>
+
+            A tentative schedule for upcoming minor releases can be found in the roadmap.<br/>
+
+            Upgrading to a minor release does not require a dump and restore; merely stop the database server, install the updated binaries, and restart the server. For some releases, manual changes may be required to complete the upgrade, so always read the release notes before upgrading.<br/>
+            <h3>PostgreSQL release support policy</h3>
+
+            The PostgreSQL project aims to fully support a major release for five years. After its end-of-life (EOL) month ends, a major version receives one final minor release. After that final minor release, bug fixing ceases for that major version.<br/>
+
+           After a release falls out of full support, we may (at our committers' discretion) continue to apply further critical fixes to the source code, on a best-effort basis. No formal releases or binary packages will be produced by the project, but the updated source code will be available from our source code control system.<br/>
+
+           This policy will be followed on a best-effort basis. In extreme cases it may not be possible to support a release for the planned lifetime; for example if a serious bug is found that cannot be resolved in a given major version without significant risk to the stability of the code or loss of application compatibility. In such cases, early retirement of a major version may be required.<br/> 
+           <h3>Oraganisations using Postgres:</h3>
+           Have a look at the list of PostgreSQL Featured Users. It includes like of  Apple, Cisco, IMDB, Red Hat, Skype, Sourceforge, Sun Microsystems etc. with several reputed universities and US federal government departments.<br/>
+
+           In 2008, Yahoo claimed to have world's largest database installation based on highly customized version of PostgreSQL.<br/>
+
+           As per its policy on adoption of Open Source Software, Government of India is also using PostgreSQL as RDBMS in its many e-Governance projects.<br/>
+             
+
+        {% endblock %}

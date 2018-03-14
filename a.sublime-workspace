@@ -1,0 +1,346 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"CASCADE"
+			],
+			[
+				"ac",
+				"account"
+			],
+			[
+				"alb",
+				"album_id"
+			],
+			[
+				"all",
+				"all_albums"
+			],
+			[
+				"de",
+				"detail"
+			],
+			[
+				"al",
+				"album_id"
+			],
+			[
+				"h",
+				"h2"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ht",
+				"HttpResponse"
+			],
+			[
+				"er",
+				"errorResponse"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"fe",
+				"fetch"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"CL",
+				"client_id"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"get",
+				"getCode"
+			],
+			[
+				"que",
+				"queryStringParameters"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/udith/Desktop/Viberr/website/settings.py",
+		"/C/Users/udith/Desktop/Viberr/music/views.py",
+		"/C/Users/udith/Desktop/Viberr/music/admin.py",
+		"/C/Users/udith/Desktop/tutorial/tutorial/settings.py",
+		"/C/Users/udith/Desktop/Viberr/music/models.py",
+		"/C/Users/udith/Desktop/Viberr/music/__init__.py",
+		"/C/Users/udith/Desktop/Viberr/music/forms.py",
+		"/C/Users/udith/Desktop/Viberr/music/apps.py",
+		"/C/Users/udith/Desktop/tutorial/accounts/views.py",
+		"/C/Users/udith/Desktop/tutorial/accounts/templates/accounts/reg_form.html",
+		"/C/Users/udith/Desktop/tutorial/accounts/models.py",
+		"/C/Users/udith/Desktop/tutorial/accounts/templates/base.html",
+		"/C/Users/udith/Desktop/frontend xray/login.html",
+		"/C/Users/udith/Desktop/tutorial/accounts/templates/accounts/login.html",
+		"/C/Users/udith/Desktop/tutorial/accounts/urls.py",
+		"/C/Users/udith/Desktop/tutorial/tutorial/urls.py",
+		"/C/Users/udith/Desktop/xray/xray/settings.py",
+		"/C/Users/udith/Desktop/xray/xray/urls.py",
+		"/C/Users/udith/Desktop/tutorial/manage.py",
+		"/C/Users/udith/Desktop/tutorial/tutorial/middleware.py",
+		"/C/Users/udith/Desktop/tutorial/home/urls.py",
+		"/C/Users/udith/Desktop/tutorial/home/models.py",
+		"/C/Users/udith/Desktop/tutorial/tutorial/wsgi.py",
+		"/C/Users/udith/Desktop/new/new/urls.py",
+		"/C/Users/udith/Desktop/Django-Tutorials/tutorial/wsgi.py",
+		"/C/Users/udith/Desktop/Django-Tutorials/manage.py",
+		"/C/Users/udith/Desktop/new/new/settings.py",
+		"/C/Users/udith/Desktop/new/templates/registration/login.html",
+		"/C/Users/udith/Desktop/new/mysite/templates/registrations/login.html",
+		"/C/Users/udith/Desktop/xray/registration/login.html",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/catalog/models.py",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/catalog/views.py",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/catalog/templates/index.html",
+		"/C/Users/udith/Desktop/xray/login/templates/index.html",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/catalog/urls.py",
+		"/C/Users/udith/Desktop/xray/login/static/css/signin.css",
+		"/C/Users/udith/Desktop/xray/login/static/css/index.css",
+		"/C/Users/udith/Desktop/xray/login/views.py",
+		"/C/Users/udith/Desktop/xray/login/urls.py",
+		"/C/Users/udith/Desktop/bootstrap/login.html",
+		"/C/Users/udith/Desktop/xray/login/models.py",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/locallibrary/urls.py",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/catalog/templates/base_generic.html",
+		"/C/Users/udith/Desktop/byob-profiles-rest-api/docker-compose.yml",
+		"/C/Users/udith/Desktop/byob-profiles-rest-api/Dockerfile",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/Dockerfile",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/start.sh",
+		"/C/Users/udith/Desktop/project/helloworld/helloworld/views.py",
+		"/C/Users/udith/Desktop/project/helloworld/helloworld/urls.py",
+		"/C/Users/udith/Desktop/website/website/website/urls.py",
+		"/C/Users/udith/Desktop/website/website/music/urls.py",
+		"/C/Users/udith/Desktop/website/website/music/views.py",
+		"/C/Users/udith/Desktop/django-locallibrary-tutorial/locallibrary/settings.py",
+		"/C/Users/udith/Desktop/myapp/index.html",
+		"/C/Users/udith/Desktop/myapp/login.txt",
+		"/C/Users/udith/Desktop/myapp/README.md",
+		"/C/Users/udith/Desktop/website/website/music/admin.py",
+		"/C/Users/udith/Desktop/website/website/music/models.py",
+		"/C/Users/udith/Desktop/website/website/website/settings.py",
+		"/C/Users/udith/Desktop/website/website/music/apps.py",
+		"/C/Users/udith/Desktop/website/website/music/tests.py",
+		"/C/Users/udith/Desktop/django-tutorials/mysite/mysite/settings.py",
+		"/C/Users/udith/Desktop/django-tutorials/mysite/mysite/urls.py",
+		"/C/Users/udith/Desktop/django-tutorials/mysite/webapp/views.py",
+		"/C/Users/udith/Desktop/django-tutorials/mysite/webapp/urls.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/README.md",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrestaurants/urls.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrestaurants/admin.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrestaurants/models.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrestaurants/forms.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrestaurants/serializers.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrestaurants/views.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrestaurants/tests.py",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrecommendations/settings.py",
+		"/C/Users/udith/Desktop/myrecommendations-master-source/README.md",
+		"/C/Users/udith/Desktop/myrecommendation/myrecommendation/myrecommendation/settings.py",
+		"/C/Users/udith/Desktop/myrecommendations-master-source/myrestaurants/models.py",
+		"/C/Users/udith/bot-with-button1/bot.js",
+		"/C/Users/udith/bot-with-button1/package.json",
+		"/C/Users/udith/bot-with-buttons/package.json",
+		"/C/Users/udith/bot-with-buttons/bot.js",
+		"/C/Users/udith/.aws/credentials",
+		"/C/Users/udith/newbot/package-lock.json",
+		"/C/Users/udith/newbot/package.json",
+		"/C/Users/udith/newbot/node_modules/claudia-bot-builder/package.json",
+		"/C/Users/udith/testfoobar/handler.js",
+		"/C/Users/udith/testfoobar/package.json",
+		"/C/Users/udith/testfoobar/serverless.yml",
+		"/C/Users/udith/my-first-serverless/serverless.yml",
+		"/C/Users/udith/lex-order-coffee-validation/handler.js",
+		"/C/Users/udith/lex-order-coffee-validation/serverless.yml",
+		"/C/Users/udith/forex/install.js",
+		"/C/Users/udith/forex/serverless.yml",
+		"/C/Users/udith/AppData/Local/Temp/Temp1_aws-serverless-chatbot-6def792e-315d-4834-b560-fdb9e3fb1176.zip/package.json",
+		"/C/Users/udith/Pictures/install.js",
+		"/C/Users/udith/forex/package.json",
+		"/C/Users/udith/AppData/Local/Temp/Temp1_aws-serverless-chatbot-6def792e-315d-4834-b560-fdb9e3fb1176.zip/serverless.yml",
+		"/C/Users/udith/AppData/Local/Temp/Temp2_aws-serverless-chatbot-c08dc46b-b78a-40ca-bbb3-6a9dc6f70019 (1).zip/serverless.yml",
+		"/C/Users/udith/AppData/Local/Temp/Temp2_aws-serverless-chatbot-c08dc46b-b78a-40ca-bbb3-6a9dc6f70019 (1).zip/package.json",
+		"/C/Users/udith/forex/package-lock.json",
+		"/C/Users/udith/serdemo/handler.js",
+		"/C/Users/udith/serdemo/serverless.yml",
+		"/C/Users/udith/AppData/Local/Temp/Temp1_aws-serverless-chatbot-c08dc46b-b78a-40ca-bbb3-6a9dc6f70019 (3).zip/serverless.yml",
+		"/C/Users/udith/handler.js",
+		"/C/Users/udith/serverless.yml",
+		"/C/npm/npm",
+		"/C/Program Files/nodejs/node_modules/npm/package.json",
+		"/C/Program Files/nodejs/package-lock.json",
+		"/C/Users/udith/.serverless/cloudformation-template-create-stack.json",
+		"/C/Users/udith/Downloads/eclipse/plugins/com.amazonaws.eclipse.lambda_1.0.0.v201801042359/code-template/test-resource/cognito-sync-event.json",
+		"/C/Users/udith/package-lock.json"
+	],
+	"find":
+	{
+		"height": 60.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "a.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

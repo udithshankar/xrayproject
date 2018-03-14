@@ -1,0 +1,26 @@
+body{
+	background-image: url(../images/back.png);
+}
+.myButton{
+	margin-left: 200px;
+	margin-top: 15px;
+}
+.registration{
+    font-size:55px;
+    font-family:Agency FB;
+    font-weight:900;
+    
+}
+#form{
+  min-height: 700px;
+  padding:120px  50px  50px  50px;	
+}
+.logbutton{
+	margin-top: 15px;
+	margin-left: 10px;
+
+}
+#rds{
+	color: purple;
+
+}

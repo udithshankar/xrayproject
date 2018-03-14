@@ -1,0 +1,51 @@
+{% extends 'mod1/base3.html' %}
+{% block body %}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DCaA1-EcTMk"></iframe>
+          </div>
+         </div>
+        <div style="font-size: 20px; text-align: justify;">
+            MySQL (officially pronounced as /maɪ ˌɛskjuːˈɛl/ "My S-Q-L") is an open-source relational database management system (RDBMS).Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language. The MySQL development project has made its source code available under the terms of the GNU General Public License, as well as under a variety of proprietary agreements. MySQL was owned and sponsored by a single for-profit firm, the Swedish company MySQL AB, now owned by Oracle Corporation.For proprietary use, several paid editions are available, and offer additional functionality.<BR>
+            MySQL is a central component of the LAMP open-source web application software stack (and other "AMP" stacks). LAMP is an acronym for "Linux, Apache, MySQL, Perl/PHP/Python". Applications that use the MySQL database include: TYPO3, MODx, Joomla, WordPress, Simple Machines Forum, phpBB, MyBB, and Drupal. MySQL is also used in many high-profile, large-scale websites, including Google(though not for searches), Facebook, Twitter, Flickr, and YouTube.<BR>
+            MySQL was created by a Swedish company, MySQL AB, founded by David Axmark, Allan Larsson and Michael "Monty" Widenius. Original development of MySQL by Widenius and Axmark began in 1994. The first version of MySQL appeared on 23 May 1995. It was initially created for personal usage from mSQL based on the low-level language ISAM, which the creators considered too slow and inflexible. They created a new SQL interface, while keeping the same API as mSQL. By keeping the API consistent with the mSQL system, many developers were able to use MySQL instead of the (proprietarily licensed) mSQL antecedent.[citation needed][dubious – discuss]<br>
+           <h3> Milestones</h3>
+
+        Additional milestones in MySQL development included:<br>
+
+    <li>First internal release on 23 May 1995.</li>
+   <li>Version 3.19: End of 1996, from www.tcx.se.</li>
+    <li>Version 3.20: January 1997.</li>
+  <li>Windows version was released on 8 January 1998 for Windows 95 and NT.</li>
+  <li> Version 3.21: production release 1998, from www.mysql.com.</li>
+ <li> Version 3.22: alpha, beta from 1998.</li>
+ <li> Version 3.23: beta from June 2000, production release 22 January 2001.</li>
+  vVersion 4.0: beta from August 2002, production release March 2003 (unions).</li>
+ <li> Version 4.01: beta from August 2003, Jyoti[clarification needed][citation needed] adopts MySQL for database tracking.</li>
+  <li> Version 4.1: beta from June 2004, production release October 2004 (R-trees and B-trees, subqueries, prepared statements).</li>
+   <li>Version 5.0: beta from March 2005, production release October 2005 (cursors, stored procedures, triggers, views, XA transactions).</li>
+
+    The developer of the Federated Storage Engine states that "The Federated Storage Engine is a proof-of-concept storage engine",but the main distributions of MySQL version 5.0 included it and turned it on by default. Documentation of some of the short-comings appears in "MySQL Federated Tables: The Missing Manual".
+
+   <li> Sun Microsystems acquired MySQL AB in 2008.</li>
+  <li> Version 5.1: production release 27 November 2008 (event scheduler, partitioning, plugin API, row-based replication, server log tables).</li>
+
+    Version 5.1 contained 20 known crashing and wrong result bugs in addition to the 35 present in version 5.0 (almost all fixed as of release 5.1.51).[32]
+    MySQL 5.1 and 6.0-alpha showed poor performance when used for data warehousing – partly due to its inability to utilize multiple CPU cores for processing a single query.
+
+   <li>Oracle acquired Sun Microsystems on 27 January 2010.</li>
+  <li> The day Oracle announced the purchase of Sun, Michael "Monty" Widenius forked MySQL, launching MariaDB, and took a swath of MySQL developers with him.</li>
+  <li> MySQL Server 5.5 was generally available (as of December 2010).Enhancements and features include:
+      <li>The default storage engine is InnoDB, which supports transactions and referential integrity constraints.</li>
+      <li>Improved InnoDB I/O subsystem.</li>
+      Improved SMP support,
+       <li> Semisynchronous replication.</li>
+      <li> SIGNAL and RESIGNAL statement in compliance with the SQL standard.</li>
+      <li> Support for supplementary Unicode character sets utf16, utf32, and utf8mb4.</li>
+      <li> New options for user-defined partitioning.</li>
+  <li> MySQL Server 6.0.11-alpha was announced on 22 May 2009 as the last release of the 6.0 line. Future MySQL Server development uses a New Release Model. Features developed for 6.0 are being incorporated into future releases.</li>
+   <li> The general availability of MySQL 5.6 was announced in February 2013. New features included performance improvements to the query optimizer, higher transactional throughput in InnoDB, new NoSQL-style memcached APIs, improvements to partitioning for querying and managing very large tables, TIMESTAMP column type that correctly stores milliseconds, improvements to replication, and better performance monitoring by expanding the data available through the PERFORMANCE_SCHEMA.The InnoDB storage engine also included support for full-text search and improved group commit performance.</li>
+    <li>The general availability of MySQL 5.7 was announced in October 2015.</li>
+   <li>MySQL Server 8.0.0-dmr (Milestone Release) was announced 12 September 2016.</li>
+      
+    </li>
+   </div>
+   {% endblock %}

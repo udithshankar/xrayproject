@@ -1,0 +1,29 @@
+body{
+   background-image: url(../images/back.png);
+   color: #fff;
+}
+#form{
+  min-height: 700px;
+  padding:5px  40px  40px  40px;	
+}
+.registration{
+    font-size:55px;
+    font-family:Agency FB;
+    font-weight:700;
+    border-bottom-style:ridge;
+
+}
+b{
+	margin-bottom: 30px;
+}
+}
+.text{
+	height:43px;
+	padding
+}
+label{
+	font-size: 18px;
+}
+center{
+
+}
