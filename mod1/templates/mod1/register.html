@@ -5,23 +5,23 @@
    <div class="container">
      <div class="row">
         <div class="col-md-6 col-md-offset-3" id="form">
-            <center><b class="registration">Registration Form</b></center>
+            <center><b class="registration" style="color: deepskyblue;">Registration Form</b></center>
 
         
           <form method="post">{% csrf_token %}
     {% for field in form %}
-      <p>
+      <p style="color: deepskyblue;">
         {{ field.label_tag }}<br>
         {{ field }}
         {% if field.help_text %}
-          <small style="color: yellow">{{ field.help_text }}</small>
+          <small style="color: chartreuse">{{ field.help_text }}</small>
         {% endif %}
         {% for error in field.errors %}
           <p style="color: red">{{ error }}</p>
         {% endfor %}
       </p>
     {% endfor %}
-    <button type="submit">Sign up</button>
+    <button type="submit" style="color: unset;">Sign up</button>
   </form>
 
         </div>

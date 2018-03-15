@@ -69,3 +69,6 @@ def mariadb(request):
 def postgres(request):
 	return render(request,'mod1/postgres.html')
 
+def mysqllambda(request):
+	return render(request,'mod1/mysqllambda.html')
+

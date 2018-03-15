@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class SignUpForm(UserCreationForm):
     first_name = forms.CharField(max_length=30, required=False, widget=forms.TextInput(
             attrs={
-                'style': 'border-color: blue;',
+                'style': 'border-color: blue; color:deepskyblue;',
                 'placeholder': 'Write your name here'
             }))
     last_name = forms.CharField(max_length=30, required=False, help_text='Optional.')

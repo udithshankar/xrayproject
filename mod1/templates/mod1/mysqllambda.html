@@ -1,0 +1,54 @@
+{% extends 'mod1/base2.html' %}
+{% block body %}
+
+<head>
+  <script>
+  function fun1() {
+   document.querySelector(".browser1").setAttribute("src", "https://e6qs5d3z7g.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+  <script>
+  function fun2() {
+   document.querySelector(".browser1").setAttribute("src", "https://5ob7rdmvb1.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+  <script>
+  function fun3() {
+   document.querySelector(".browser1").setAttribute("src", "https://181kcs9a26.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+<style type="text/css">
+ body{
+  margin: 30px auto;
+  padding: 0px;
+  background: #fffffa;
+  text-align: center;
+ }
+
+.browser1{
+  display: inline-block;
+  position: relative;
+  width: 800px !important;
+  height: 240px !important;
+  background: #efefef;
+ }
+</style>
+</head>
+
+<body>
+<br><br>
+<input type="radio" id="example1" name="group" onclick="fun1()"/>
+  <label for="example1">What are the advantages of Read Replicas?</label><br>
+
+<input type="radio" id="example2" name="group" onclick="fun2()"/>
+  <label for="example2">What are the advantages of Multi-AZ deployments?</label><br>
+
+<input type="radio" id="example3" name="group" onclick="fun3()"/>
+  <label for="example3">How to change the RDS MySQL Master Password?</label><br><br><br>
+
+<iframe class="browser1"> </iframe>
+
+{% endblock %}

@@ -14,6 +14,7 @@ urlpatterns = [
      url(r'^mysql/$', views.mysql, name='mysql'),
      url(r'^mariadb/$', views.mariadb, name='mariadb'),
       url(r'^postgres/$', views.postgres, name='postgres'),
+      url(r'^mysqllambda/$', views.mysqllambda, name='mysqllambda'),
  
  
 

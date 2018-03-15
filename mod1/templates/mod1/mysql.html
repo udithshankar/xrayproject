@@ -45,7 +45,9 @@
    <li> The general availability of MySQL 5.6 was announced in February 2013. New features included performance improvements to the query optimizer, higher transactional throughput in InnoDB, new NoSQL-style memcached APIs, improvements to partitioning for querying and managing very large tables, TIMESTAMP column type that correctly stores milliseconds, improvements to replication, and better performance monitoring by expanding the data available through the PERFORMANCE_SCHEMA.The InnoDB storage engine also included support for full-text search and improved group commit performance.</li>
     <li>The general availability of MySQL 5.7 was announced in October 2015.</li>
    <li>MySQL Server 8.0.0-dmr (Milestone Release) was announced 12 September 2016.</li>
-      
+      {% block support %}
+      "{% url 'mod1:mysqllambda' %}"
+      {% endblock %}
     </li>
    </div>
    {% endblock %}
