@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"request"
+			],
+			[
 				"mar",
-				"margin-top"
+				"margin-left"
 			],
 			[
 				"di",
@@ -22,10 +26,6 @@
 			[
 				"marg",
 				"margin-left"
-			],
-			[
-				"re",
-				"redirect"
 			],
 			[
 				"h",
@@ -136,24 +136,6 @@
 	"buffers":
 	[
 		{
-			"file": "mod1/urls.py",
-			"settings":
-			{
-				"buffer_size": 662,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mod1/views.py",
-			"settings":
-			{
-				"buffer_size": 2126,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "mod1/templates/mod1/home.html",
 			"settings":
 			{
@@ -166,7 +148,7 @@
 			"file": "mod1/templates/mod1/base2.html",
 			"settings":
 			{
-				"buffer_size": 2261,
+				"buffer_size": 2252,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -175,16 +157,7 @@
 			"file": "mod1/templates/mod1/base3.html",
 			"settings":
 			{
-				"buffer_size": 3026,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mod1/templates/mod1/oracle.html",
-			"settings":
-			{
-				"buffer_size": 4510,
+				"buffer_size": 3000,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -193,17 +166,50 @@
 			"file": "mod1/templates/mod1/mysql.html",
 			"settings":
 			{
-				"buffer_size": 5767,
+				"buffer_size": 5844,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mod1/templates/mod1/mariadb.html",
+			"file": "mod1/templates/mod1/mysqllambda.html",
 			"settings":
 			{
-				"buffer_size": 2355,
+				"buffer_size": 1365,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/udith/Desktop/rv project/resources/createTable2.py",
+			"settings":
+			{
+				"buffer_size": 983,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mod1/urls.py",
+			"settings":
+			{
+				"buffer_size": 731,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/udith/Desktop/rv project/resources/getData2.py",
+			"settings":
+			{
+				"buffer_size": 1404,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "xray/settings.py",
+			"settings":
+			{
+				"buffer_size": 3348,
 				"line_ending": "Windows"
 			}
 		}
@@ -241,28 +247,29 @@
 	"expanded_folders":
 	[
 		"/C/Users/udith/Desktop/xray",
-		"/C/Users/udith/Desktop/xray/mod1",
-		"/C/Users/udith/Desktop/xray/mod1/static",
-		"/C/Users/udith/Desktop/xray/mod1/templates",
-		"/C/Users/udith/Desktop/xray/mod1/templates/mod1",
-		"/C/Users/udith/Desktop/xray/xray",
-		"/C/Users/udith/Desktop/xray/xray/__pycache__"
+		"/C/Users/udith/Desktop/xray/xray"
 	],
 	"file_history":
 	[
+		"/C/Users/udith/Desktop/xray/mod1/forms.py",
+		"/C/Users/udith/Desktop/xray/mod1/views.py",
+		"/C/Users/udith/Downloads/lambda(2).html",
+		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/register.html",
+		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/login.html",
+		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/mariadb.html",
+		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/mysql.html",
+		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/oracle.html",
+		"/C/Users/udith/Desktop/xray/manage.py",
+		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/base3.html",
+		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/base2.html",
+		"/C/Users/udith/Desktop/xray/mod1/urls.py",
 		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/postgres.html",
 		"/C/Users/udith/Desktop/xray/xray/settings.py",
 		"/C/Users/udith/Desktop/bootstrap/oracle.html",
-		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/base3.html",
 		"/C/Users/udith/Desktop/bootstrap/home.html",
 		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/home.html",
-		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/base2.html",
 		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/form_template.html",
 		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/base1.html",
-		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/login.html",
-		"/C/Users/udith/Desktop/xray/mod1/views.py",
-		"/C/Users/udith/Desktop/xray/mod1/urls.py",
-		"/C/Users/udith/Desktop/xray/mod1/forms.py",
 		"/C/Users/udith/Desktop/xray/mod1/static/mod1/css/register.css",
 		"/C/Users/udith/Desktop/xray/mod1/static/mod1/css/index.css",
 		"/C/Users/udith/Desktop/xray/mod1/static/mod1/css/signin.css",
@@ -270,7 +277,6 @@
 		"/C/Users/udith/Desktop/frontend xray/login.html",
 		"/C/Users/udith/Desktop/Viberr/music/forms.py",
 		"/C/Users/udith/Desktop/xray/mod1/templates/registration/login.html",
-		"/C/Users/udith/Desktop/xray/mod1/templates/mod1/register.html",
 		"/C/Users/udith/Desktop/xray/xray/urls.py",
 		"/C/Users/udith/Desktop/Viberr/music/urls.py",
 		"/C/Users/udith/Desktop/Viberr/music/templates/music/base_visitor.html",
@@ -372,16 +378,11 @@
 		"/C/Users/udith/forex/serverless.yml",
 		"/C/Users/udith/AppData/Local/Temp/Temp1_aws-serverless-chatbot-6def792e-315d-4834-b560-fdb9e3fb1176.zip/package.json",
 		"/C/Users/udith/Pictures/install.js",
-		"/C/Users/udith/forex/package.json",
-		"/C/Users/udith/AppData/Local/Temp/Temp1_aws-serverless-chatbot-6def792e-315d-4834-b560-fdb9e3fb1176.zip/serverless.yml",
-		"/C/Users/udith/AppData/Local/Temp/Temp2_aws-serverless-chatbot-c08dc46b-b78a-40ca-bbb3-6a9dc6f70019 (1).zip/serverless.yml",
-		"/C/Users/udith/AppData/Local/Temp/Temp2_aws-serverless-chatbot-c08dc46b-b78a-40ca-bbb3-6a9dc6f70019 (1).zip/package.json",
-		"/C/Users/udith/forex/package-lock.json",
-		"/C/Users/udith/serdemo/handler.js"
+		"/C/Users/udith/forex/package.json"
 	],
 	"find":
 	{
-		"height": 65.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -413,67 +414,11 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mod1/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 662,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								648,
-								648
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "mod1/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2117,
-								2117
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 858.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "mod1/templates/mod1/home.html",
 					"semi_transient": false,
 					"settings":
@@ -485,38 +430,8 @@
 						"selection":
 						[
 							[
-								2769,
-								2769
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2508.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "mod1/templates/mod1/base2.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1648,
-								1648
+								1892,
+								1892
 							]
 						],
 						"settings":
@@ -529,24 +444,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "mod1/templates/mod1/base3.html",
+					"buffer": 1,
+					"file": "mod1/templates/mod1/base2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3026,
+						"buffer_size": 2252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2366,
-								2366
+								1227,
+								1227
 							]
 						],
 						"settings":
@@ -559,24 +474,24 @@
 						"translation.y": 528.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "mod1/templates/mod1/oracle.html",
+					"buffer": 2,
+					"file": "mod1/templates/mod1/base3.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4510,
+						"buffer_size": 3000,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4496,
-								4510
+								1489,
+								1513
 							]
 						],
 						"settings":
@@ -586,57 +501,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1056.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "mod1/templates/mod1/mysql.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5767,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5753,
-								5767
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1386.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "mod1/templates/mod1/mariadb.html",
+					"buffer": 3,
+					"file": "mod1/templates/mod1/mysql.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2355,
+						"buffer_size": 5844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								308,
-								308
+								48,
+								0
 							]
 						],
 						"settings":
@@ -649,7 +534,155 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "mod1/templates/mod1/mysqllambda.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/udith/Desktop/rv project/resources/createTable2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "mod1/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/udith/Desktop/rv project/resources/getData2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "xray/settings.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2442,
+								2442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
