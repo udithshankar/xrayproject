@@ -1,18 +1,14 @@
 {% extends 'mod1/base1.html' %}
 
 {% block body %}
-<body>
-   <div class="container">
-     <div class="row">
-        <div class="col-md-6 col-md-offset-3" id="form">
-            <center><rds id="rds"><b class="registration">RDS Helpdesk</b></rds></center>
-           <div class="myButton">
-             <a class="btn btn-lg btn-default" href="{% url 'mod1:register' %}" role="button">Register</a>
-             <br>
-             <div class="logbutton"><a class="btn btn-lg btn-default" href="{% url 'mod1:login' %}" role="button">Login</a>
-          </div>
-         </div>
-      </div>
-    </div>
-  </body>
+<div style="margin-top: 280px;">
+  <center  style="padding-top: 20px;"><h1>Welcome to Amazon RDS Common Support Issues Website.</h1></center>
+  <center><h3>Amazon Relational Database Service (Amazon RDS) is a web service that makes it easier<br/> to set up, operate, and scale a relational database in the cloud.</h3></center><br>
+  <div style="margin-top: 200px;">
+  <center><h4>Get free and easy excess to know how to resolve the Common support issues in RDS.</h4></center>
+  <center><a style="padding-left: 50px; padding-right: 50px;" class="btn btn-lg btn-default" href="{% url 'mod1:register' %}" role="button">Register</a>
+  <a style="padding-left: 50px; padding-right: 50px;" class="btn btn-lg btn-default" href="{% url 'mod1:login' %}" role="button">Login</a></center>
+  <center><h4>No charges. Unsubscribe anytime.</h4> </center>
+</div>
+</div>
 {% endblock %}          

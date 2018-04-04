@@ -1,5 +1,15 @@
+.f1 {
+  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+   
+   
+}
+
 .navbar-default{
-  backgroung:#fff;
+  background: black;
   border:0;	
 }
 
@@ -9,59 +19,29 @@
     font-weight:bold;	
 }
 
-.carousel-inner{
-	margin-top: 30px;
-}
 
-.carousel-caption{
-	margin-right: 250px;
-	margin-bottom: 150px;
-	margin-left: 100px;
-}
-
-.rdsdesc{
-	margin-top:30px;
-}
-
-#mySlider{
-	
-
-}
-
-#videobase{
-	margin-left: 40px;
-}
-.caps{
-	margin-right: 100px;
-	margin-left: 100px; 
-}
-.capcolor{
-	color: purple;
-	margin-left: 200px;
-	
+.rdsimg{
+	margin-left:150px;
+	margin-top:120px;
 }
 .rds{
-	margin-left: 150px;
+	margin-bottom: 100px;
+	padding-right: 100px;
 }
-.slider{
-	margin-top: 100px;
-}
-.about{
-	margin-left: 20px;
-	padding-top: 20px;
-	padding-left: 20px;
-	background-color: cyan;
-	font-size: 17px;
-	text-align:justify;
-	padding-right: 20px;
+.capcolor{
+	color:purple;
 }
 .aline{
-    text-align:justify;
+	text-align: justify;
 }
-.site-footer{
-	background-color: #eee;
-
+.about{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	background-color:#eee;
+	font-size: 18px;
 }
-.f1{
-	margin-top: 30px;
+#SupButton{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }

@@ -1,0 +1,54 @@
+{% extends 'mod1/base3.html' %}
+{% block body %}
+ <div class="container" style="background-color: #383838;">
+    <div class="row" style="color: white; margin-top: 70px;font-size: 18px;">
+
+   <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-4by3" >
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yjH10T3Miag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+       </div>   
+      <div>
+          <div style="text-align: justify; margin-right: 20px; margin-left: 20px;">
+                Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS).It is a web service running "in the cloud" designed to simplify the setup, operation, and scaling of a relational database for use in applications.Complex administration processes like patching the database software, backing up databases and enabling point-in-time recovery are managed automatically.Scaling storage and compute resources can be performed by a single API call.<br/>
+
+
+
+               In November 2014 AWS announced Amazon Aurora, a MySQL-compatible database offering enhanced high availability and performance.
+               Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. It frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need.<br/><br>
+               <b><h2>Amazon RDS Engines</h2></b><hr>
+
+               Amazon RDS is available on several database instance types - optimized for memory, performance or I/O - and provides you with six familiar database engines to choose from, including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, and Microsoft SQL Server. You can use the AWS Database Migration Service to easily migrate or replicate your existing databases to Amazon RDS.<br/>
+               Amazon RDS was first released on 22 October 2009, supporting MySQL databases. This was followed by support for Oracle Database in June 2011, Microsoft SQL Server in May 2012,PostgreSQL in November 2013,and MariaDB (a fork of MySQL) in October 2015.<br/>
+               In November 2014 AWS announced Amazon Aurora, a MySQL-compatible database offering enhanced high availability and performance.<br>
+               Amazon RDS gives you access to the capabilities of a MySQL, MariaDB, PostgreSQL, Microsoft SQL Server, Oracle, or Amazon Aurora database server. These capabilities mean that the code, applications, and tools you already use today with your existing databases work with Amazon RDS without modification. Amazon RDS automatically backs up your database and maintains the database software that powers your DB instance. Amazon RDS is flexible: you can scale your DB instance's compute resources and storage capacity to meet your application's demand. As with all Amazon Web Services, there are no up-front investments, and you pay only for the resources you use.<br><br>
+              <b> <h2>Organisations using Amazon RDS</h2></b><hr>
+               Netflix, NASA, Expedia, Slack, Samsung, Nokia, Adobe, Comcat etc.
+            </div> 
+            </div><hr>
+                  <div class="row" id="SupButton">
+              <a style=" margin-left: 300px; align-content: center;margin-top: 10px; " class="btn btn-lg btn-default" href="#" role="button"> Link</a>
+                 <a style="margin-left: 250px;" class="btn btn-lg btn-default" href="{% url 'mod1:rdssup' %}"" role="button"> Common Support issues</a>
+            </div>
+    
+    
+   </div>
+  </div>
+
+   <div class="f1" style="color:white;">
+      <footer class="site-footer row" style=" background: black; padding-left: 20px;">
+       <div class="col-md-6"> <h3>Contact us<br></h3>
+          <p>  Email: abc@amazon.com<br>
+               Mobile no: +919906810610,+919797108430</p>
+       </div>
+       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
+        <a style="padding-right: 20px; color: white;" href="#">Why RDS?</a>
+        <a style="color: white;" href="#">Advantages of Database in cloud</a>
+       </div> 
+      </footer>
+    </div>
+           
+
+           
+       
+       
+   {% endblock %}

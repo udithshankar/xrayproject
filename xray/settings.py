@@ -39,16 +39,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
      'mod1',
      'widget_tweaks',
+     'aws_xray_sdk.ext.django',
 ]
 
 MIDDLEWARE = [
+    'aws_xray_sdk.ext.django.middleware.XRayMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    #'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware'
 ]
 
 ROOT_URLCONF = 'xray.urls'
@@ -126,4 +128,4 @@ USE_TZ = True
 STATIC_ROOT='/mod1/static/'
 STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = 'mod1/home.html'
-LOGOUT_REDIRECT_URL='mod1/view.html'
+LOGOUT_REDIRECT_URL='mod1/index.html'

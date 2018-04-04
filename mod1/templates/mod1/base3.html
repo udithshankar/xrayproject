@@ -8,54 +8,40 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Oracle</title>
     <!-- Bootstrap -->
+    <meta name="author" content="Codrops" />
     <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/bootstrap.min.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/style.css' %}"/>
+       <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/style.css' %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/demo.css' %}" />
+        <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/style1.css' %}" />
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script type="text/javascript" src="{% static 'mod1/js/modernizr.custom.86080.js' %}"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="{%static 'mod1/js/bootstrap.min.js' %}"></script>
   </head>
-  <body>
+   <body style="background-image: url(../../static/mod1/images/main1.png); background-attachment: fixed;">
     <!--Navbar start-->
-    <nav class="navbar navbar-default navbar-fixed-top" style="height: 67px;">
-      <div class="container">
-       <div id="navbar" class="collapse navbar-collapse">
-          <a class="navbar-brand" href="#"><h2>RDS Helpdesk</h2></a>
-          <ul class="nav navbar-nav navbar-right navbar-brand">
-            <li><a href="{% url 'mod1:home' %}">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Myaccount</a></li>
-            <l1><a href="{% url 'mod1:index' %}" style="line-height: 50px;"> logout</a></l1>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </nav>
-        <div class="row" style="margin-top: 60;">
-           <div class="col-md-6" style="margin-top: 60;">
-              <div class="embed-responsive embed-responsive-4by3" >
+    <!-- Codrops top bar -->
+            <div class="codrops-top" style=" position: fixed;">
+                <a>
+                    <strong>&laquo; RDS Helpdesk: </strong>Learn about Common Support Issues
+                </a>
+                <span class="right" style="margin-right: 15px;">
+                    <a href="{% url 'mod1:home' %}" target="_blank">Home</a>
+                    <a href="#about1" target="_blank">About</a>
+                    <a href="{% url 'mod1:myaccount' %}">
+                        Myaccount
+                    </a>
+                     <a href="{% url 'mod1:index' %}">
+                        Logout
+                    </a>
+                </span>
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+         
               {% block body %}
               {% endblock %}
-             </div>
-          <div style="margin-top: 50px; margin-bottom: 50px;">
-              <a style="padding-right: 80px; margin-left: 100px; align-content: center;" class="btn btn-lg btn-primary" href="#" role="button"> <h1>Link</h1></a>
-                 <a style="margin-left: 150px;" class="btn btn-lg btn-primary" href= {% block support %} {% endblock %} role="button"> <h1>Common Support issues</h1></a>
-            </div>
-       </div>
-      </div>
-
-
- <div class="f1">
-      <footer class="site-footer row" style="color:blue; background: black; padding-left: 10px;">
-       <div class="col-md-6"> <h3>Contact us<br></h3>
-          <p>  Email: abc@amazon.com<br>
-               Mobile no: +919906810610,+919797108430</p>
-       </div>
-       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
-        <a style="padding-right: 10px;" href="#">Why RDS?</a>
-        <a href="#">Advantages of Database in cloud</a>
-       </div> 
-      </footer>
-    </div>
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+             
     </body>
 </html>

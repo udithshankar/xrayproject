@@ -1,6 +1,7 @@
 body{
-  background-image: url(../images/back.png);
-  margin-top: 100px;
+  display: 100%;
+ /* background-image: url(../images/aws.png);*/
+ 
 }
 
 .form-signin {
@@ -36,4 +37,13 @@ body{
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+/*.imagebck{
+  background-image: url(../images/aws1.png);
+  padding-bottom: 100px;
+
+}*/
+.responsive {
+    width: 100%;
+    height: auto;
 }

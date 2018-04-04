@@ -15,6 +15,15 @@ urlpatterns = [
      url(r'^mariadb/$', views.mariadb, name='mariadb'),
       url(r'^postgres/$', views.postgres, name='postgres'),
       url(r'^mysqllambda/$', views.mysqllambda, name='mysqllambda'),
+      url(r'^myaccount/$', views.myaccount, name='myaccount'),
+      url(r'^about/$', views.about, name='about'),
+      url(r'^aurora/$', views.aurora, name='aurora'),
+      url(r'^redshift/$', views.redshift, name='redshift'),
+      url(r'^sqlserver/$', views.sqlserver, name='sqlserver'),
+      url(r'^mysqlsup/$', views.mysqlsup  , name='mysqlsup'),
+      url(r'^rdssup/$', views.rdssup  , name='rdssup'),
+      url(r'^rds/$',  views.rds  , name='rds'),
+
  
  
 

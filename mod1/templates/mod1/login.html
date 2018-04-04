@@ -1,27 +1,47 @@
 {% extends 'mod1/form_template.html' %}
 
 {% block body %}
-<div class="container" style="color: deepskyblue;margin-left: 40%;">
-<h1> login form  </h1>
-</div>
- <body>
+<body style="color: black;"> 
+<div>
+<center style=" margin-top: 50px;"><b><h1>Hello and Welcome to Amazon RDS Common Support Issues.</h1></b><br><br>
+<br><br>
 
-    <div class="container" style="width:30%; margin-top: 15%;">
-
+	
+    
+      <h1> Login Form  </h1><br><br>
+    <body>
       {% if form.errors %}
-     <p>Your username and password didn't match. Please try again.</p>
-     {% endif %}
-<form method="post" >
-{% csrf_token %}
+       <p>Your username and password didn't match. Please try again.</p>
+       {% endif %}
+       <form method="post" >
+       {% csrf_token %}
 
-	<div class="form-group">
-{{ form.as_p}}
-</div>
+	   <div class="form-group" style="color: black;">
+         {{ form.as_p}}
+       </div>
 
-<div style="margin-left: 125px;"><input type="submit" value="login" style="align-self: centre;" /></div>
-<input type="hidden" name="next" value="/" />
-</form>
+       <div style="margin-left: 70px;color: black;"><input type="submit" value="login"/></div>
+       <input type="hidden" name="next" value="/" />
+       </form>
+        <p class="message" style="margin-left: 30px;">Not registered? <a href="{% url 'mod1:register' %}">Create an account</a></p>
+        </center>
 
-    </div> <!-- /container -->
+    </div>
+    
+   
   </body>
 {% endblock %}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

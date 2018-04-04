@@ -2,30 +2,31 @@
 
 {% block body %}
 <body>
-   <div class="container">
+   <div class="container" style="color: orange;">
      <div class="row">
         <div class="col-md-6 col-md-offset-3" id="form">
-            <center><b class="registration" style="color: deepskyblue;">Registration Form</b></center>
+            <center><b class="registration">Registration Form</b></center>  <br/>
 
         
-          <form method="post">{% csrf_token %}
-    {% for field in form %}
-      <p style="color: deepskyblue;">
-        {{ field.label_tag }}<br>
-        {{ field }}
-        {% if field.help_text %}
-          <small style="color: chartreuse">{{ field.help_text }}</small>
-        {% endif %}
-        {% for error in field.errors %}
-          <p style="color: red">{{ error }}</p>
-        {% endfor %}
-      </p>
-    {% endfor %}
-    <button type="submit" style="color: unset;">Sign up</button>
-  </form>
+            <div style="margin-left: 150px;"> <form method="post">{% csrf_token %}
+             {% for field in form %}
 
-        </div>
-      </div>
+              <div>
+                {{ field.label_tag  }} <p style="color: black;"> {{ field }}</p>
+              </div>
+              {% if field.help_text %}
+              <!--  <small style="color: chartreuse">{{ field.help_text }}</small>-->
+              {% endif %}
+              {% for error in field.errors %}
+              <p style="color: red">{{ error }}</p>
+              {% endfor %}
+              </p>
+              {% endfor %}
+              <div style="margin-left: 40px;"><button type="submit" style="color: black;">Sign up</button></div>
+              </form>
+            </div>
+         </div>
     </div>
+  </div>
  </body>
 {% endblock %}  

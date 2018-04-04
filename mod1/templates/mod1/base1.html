@@ -18,9 +18,10 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{%static 'mod1/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'mod1/js/bootstrap.min.js' %}"></script>
   </head>
-  <body>
+  <body style="background-image: url(../../static/mod1/images/main1.png); background-attachment: fixed; style="margin-top: 100px;">
+    
       {% block body %}
     {% endblock %}
   </body>

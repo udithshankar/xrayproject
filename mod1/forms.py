@@ -9,6 +9,7 @@ class SignUpForm(UserCreationForm):
                 'style': 'border-color: blue; color:deepskyblue;',
                 'placeholder': 'Write your name here'
             }))
+    first_name = forms.CharField(max_length=30, required=False, help_text='Enter your full name.')
     last_name = forms.CharField(max_length=30, required=False, help_text='Optional.')
     email = forms.EmailField(max_length=254, help_text='Required. Inform a valid email address.')
     address=forms.CharField(max_length=500,required=False,help_text='enter address')

@@ -1,13 +1,18 @@
 {% extends 'mod1/base3.html' %}
 {% block body %}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DCaA1-EcTMk"></iframe>
-          </div>
-         </div>
-        <div style="font-size: 20px; text-align: justify;">
-            MySQL (officially pronounced as /maɪ ˌɛskjuːˈɛl/ "My S-Q-L") is an open-source relational database management system (RDBMS).Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language. The MySQL development project has made its source code available under the terms of the GNU General Public License, as well as under a variety of proprietary agreements. MySQL was owned and sponsored by a single for-profit firm, the Swedish company MySQL AB, now owned by Oracle Corporation.For proprietary use, several paid editions are available, and offer additional functionality.<BR>
+<div class="container" style="background-color: #383838;">
+    <div class="row" style="color: white; margin-top: 70px;font-size: 18px;">
+
+   <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-4by3" >
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DCaA1-EcTMk"></iframe></div>
+       </div>   
+      <div>
+           <div style="text-align: justify; margin-right: 20px; margin-left: 20px;">
+             MySQL (officially pronounced as /maɪ ˌɛskjuːˈɛl/ "My S-Q-L") is an open-source relational database management system (RDBMS).Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language. The MySQL development project has made its source code available under the terms of the GNU General Public License, as well as under a variety of proprietary agreements. MySQL was owned and sponsored by a single for-profit firm, the Swedish company MySQL AB, now owned by Oracle Corporation.For proprietary use, several paid editions are available, and offer additional functionality.<BR>
             MySQL is a central component of the LAMP open-source web application software stack (and other "AMP" stacks). LAMP is an acronym for "Linux, Apache, MySQL, Perl/PHP/Python". Applications that use the MySQL database include: TYPO3, MODx, Joomla, WordPress, Simple Machines Forum, phpBB, MyBB, and Drupal. MySQL is also used in many high-profile, large-scale websites, including Google(though not for searches), Facebook, Twitter, Flickr, and YouTube.<BR>
-            MySQL was created by a Swedish company, MySQL AB, founded by David Axmark, Allan Larsson and Michael "Monty" Widenius. Original development of MySQL by Widenius and Axmark began in 1994. The first version of MySQL appeared on 23 May 1995. It was initially created for personal usage from mSQL based on the low-level language ISAM, which the creators considered too slow and inflexible. They created a new SQL interface, while keeping the same API as mSQL. By keeping the API consistent with the mSQL system, many developers were able to use MySQL instead of the (proprietarily licensed) mSQL antecedent.[citation needed][dubious – discuss]<br>
-           <h3> Milestones</h3>
+            MySQL was created by a Swedish company, MySQL AB, founded by David Axmark, Allan Larsson and Michael "Monty" Widenius. Original development of MySQL by Widenius and Axmark began in 1994. The first version of MySQL appeared on 23 May 1995. It was initially created for personal usage from mSQL based on the low-level language ISAM, which the creators considered too slow and inflexible. They created a new SQL interface, while keeping the same API as mSQL. By keeping the API consistent with the mSQL system, many developers were able to use MySQL instead of the (proprietarily licensed) mSQL antecedent.[citation needed][dubious – discuss]<br><br>
+           <b><h2> Milestones</h2></b><hr>
 
         Additional milestones in MySQL development included:<br>
 
@@ -45,9 +50,59 @@
    <li> The general availability of MySQL 5.6 was announced in February 2013. New features included performance improvements to the query optimizer, higher transactional throughput in InnoDB, new NoSQL-style memcached APIs, improvements to partitioning for querying and managing very large tables, TIMESTAMP column type that correctly stores milliseconds, improvements to replication, and better performance monitoring by expanding the data available through the PERFORMANCE_SCHEMA.The InnoDB storage engine also included support for full-text search and improved group commit performance.</li>
     <li>The general availability of MySQL 5.7 was announced in October 2015.</li>
    <li>MySQL Server 8.0.0-dmr (Milestone Release) was announced 12 September 2016.</li>
-      {% block support %}
-      "{% url 'mod1:mysqllambda' %}"
-      {% endblock %}
-    </li>
+       </div> 
+            </div><hr>
+                  <div class="row" id="SupButton">
+              <a style=" margin-left: 300px; align-content: center;margin-top: 10px; " class="btn btn-lg btn-default" href="#" role="button"> Link</a>
+                 <a style="margin-left: 250px;" class="btn btn-lg btn-default" href="{% url 'mod1:mysqlsup' %}"" role="button"> Common Support issues</a>
+            </div>
+    
+    
    </div>
+  </div>
+
+   <div class="f1" style="color:white;">
+      <footer class="site-footer row" style=" background: black; padding-left: 20px;">
+       <div class="col-md-6"> <h3>Contact us<br></h3>
+          <p>  Email: abc@amazon.com<br>
+               Mobile no: +919906810610,+919797108430</p>
+       </div>
+       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
+        <a style="padding-right: 20px; color: white;" href="#">Why RDS?</a>
+        <a style="color: white;" href="#">Advantages of Database in cloud</a>
+       </div> 
+      </footer>
+    </div>
+           
+    </li>
+     </div>
+    </div>
+   </div>
+  </div>
+           
+
+           
+       
+       
    {% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

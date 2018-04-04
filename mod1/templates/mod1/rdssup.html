@@ -1,0 +1,135 @@
+{% extends 'mod1/base3.html'%}
+{% block body %}
+
+<head>
+  <script>
+  function fun1() {
+   document.querySelector(".browser1").setAttribute("src", "https://nox9n75h3k.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+  <script>
+  function fun2() {
+   document.querySelector(".browser1").setAttribute("src", "https://fdjxqazbp6.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+  <script>
+  function fun3() {
+   document.querySelector(".browser1").setAttribute("src", "https://pkct2yn4bj.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+  <script>
+  function fun4() {
+   document.querySelector(".browser1").setAttribute("src", "https://a21blh7zn0.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+  <script>
+  function fun5() {
+   document.querySelector(".browser1").setAttribute("src", "https://004gy9wxh8.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+  <script>
+  function fun6() {
+   document.querySelector(".browser1").setAttribute("src", "https://hocre7yhua.execute-api.us-east-1.amazonaws.com/dev/");
+  }
+  </script>
+
+<style type="text/css">
+ body{
+  margin: 30px auto;
+  padding: 0px;
+  background: #fffffa;
+ 
+  
+ }
+
+.browser1{
+  display: inline-block;
+  position: relative;
+  width: 550px !important;
+  height: 300px !important;
+  background: #efefef;
+  margin-bottom: 30px;
+ }
+</style>
+</head>
+
+
+<br/>
+<div class="container" style="margin-top: 20px; color: white; background-color: #383838;">
+
+<center><h2 style="margin-top: 10px; margin-bottom: 30px;"><b>RDS common support issues:</b></h2></center>
+<div class="row" style=" font-size: 18px;">
+<b>  <div class="col-md-6">
+<div class="form-check">
+    <input class="form-check-input" name="group100" type="radio" id="radio100" onclick="fun1()"
+    <label class="form-check-label" for="radio100">  How do I launch an Amazon RDS DB instance under the Free Tier?
+
+</label>
+</div>
+
+
+<!--https://www.youtube.com/watch?v=ZH7OHs1yILA-->
+
+<!--https://aws.amazon.com/premiumsupport/knowledge-center/rds-mysql-logs/-->
+
+
+<div class="form-check">
+    <input class="form-check-input" name="group100" type="radio" id="radio101" onclick="fun2()"
+    <label class="form-check-label" for="radio101">  How do I compare RDS parameter values in different parameter groups?
+
+    </label>
+</div>
+<!--https://aws.amazon.com/premiumsupport/knowledge-center/rds-mysql-storage-optimization/-->
+
+
+<div class="form-check">
+    <input class="form-check-input" name="group100" type="radio" id="radio102" onclick="fun3()"
+    <label class="form-check-label" for="radio102">  How do I reset the master user password for my RDS DB instance?</label>
+</div>
+
+<!--https://aws.amazon.com/premiumsupport/knowledge-center/rds-cannot-connect/-->
+
+
+<div class="form-check">
+    <input class="form-check-input" name="group100" type="radio" id="radio103" onclick="fun4()"
+    <label class="form-check-label" for="radio103">  Does RDS support IPv6 addressing?</label>
+</div>
+
+<!--https://www.youtube.com/watch?v=Cjw6tmNSZ0E-->
+
+<div class="form-check">
+    <input class="form-check-input" name="group100" type="radio" id="radio104" onclick="fun5()"
+    <label class="form-check-label" for="radio104">  How do I resolve problems connecting to my Amazon RDS database instance?</label>
+  </div>
+  
+<div class="form-check">
+    <input class="form-check-input" name="group100" type="radio" id="radio105" onclick="fun6()"
+    <label class="form-check-label" for="radio105">  How do I share Amazon RDS DB snapshots with other accounts?</label>
+  </div>
+</div></b>
+<div class="col-md-6">
+
+<iframe class="browser1" style="color: black; text-align: justify; font-size: 16px;"> </iframe>
+</div>
+</div>
+
+<div class="f1" style="color:white; position: fixed;">
+      <footer class="site-footer row" style=" background: black; padding-left: 20px;">
+       <div class="col-md-6"> <h3>Contact us<br></h3>
+          <p>  Email: abc@amazon.com<br>
+               Mobile no: +919906810610,+919797108430</p>
+       </div>
+       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
+        <a style="padding-right: 20px; color: white;" href="#">Why RDS?</a>
+        <a style="color: white;" href="#">Advantages of Database in cloud</a>
+       </div> 
+      </footer>
+    </div>
+<!--http://www.titiapps.com/aws-knowledge-center-videos-how-do-i-manage-logs-in-amazon-rds-mysql/-->
+
+{% endblock %}
