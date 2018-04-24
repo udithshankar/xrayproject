@@ -25,7 +25,7 @@ SECRET_KEY = '*ztl4ke#wa-xeuib(y=apt$u+wc7jp7%_ha#y0&9hhp#r_gt&n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0','.ap-south-1.compute.amazonaws.com']
 
 
 # Application definition
