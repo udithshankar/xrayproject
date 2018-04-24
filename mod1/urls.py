@@ -23,6 +23,8 @@ urlpatterns = [
       url(r'^mysqlsup/$', views.mysqlsup  , name='mysqlsup'),
       url(r'^rdssup/$', views.rdssup  , name='rdssup'),
       url(r'^rds/$',  views.rds  , name='rds'),
+      url(r'^rdsadvan/$',  views.rdsadvan  , name='rdsadvan'),
+       url(r'^database/$',  views.database  , name='database'),
 
  
  

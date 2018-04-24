@@ -46,6 +46,7 @@ def user_login(request):
 			if user:
 				if user.is_active:
 					auth_login(request,user)
+					request.session['username'] = username
 					return redirect('mod1:home')
 	else:
 		form = userloginform()
@@ -105,3 +106,9 @@ def rdssup(request):
 def rds(request):
 	return render(request, 'mod1/rds.html')	
 
+def rdsadvan(request):
+	return render(request, 'mod1/rdsadvan.html')	
+
+
+def database(request):
+	return render(request, 'mod1/database.html')	

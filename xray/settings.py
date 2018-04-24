@@ -39,11 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
      'mod1',
      'widget_tweaks',
-     'aws_xray_sdk.ext.django',
+     
 ]
 
 MIDDLEWARE = [
-    'aws_xray_sdk.ext.django.middleware.XRayMiddleware',
+    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

@@ -27,12 +27,6 @@
   </script>
 
 <style type="text/css">
- body{
-  margin: 30px auto;
-  padding: 0px;
-  background: #fffffa;
-  
- }
 
 .browser1{
   display: inline-block;
@@ -42,19 +36,27 @@
   background: #efefef;
   margin-bottom: 30px;
  }
+
+  .alpha60 {
+    filter: alpha(opacity=90);
+  filter: progid: DXImageTransform.Microsoft.Alpha(opacity=90);
+  -moz-opacity: 0.90;
+  opacity: 0.9;
+}
+
 </style>
 </head>
 
 
 <br/>
-<div class="container" style="margin-top: 20px; color: white; background-color: #383838;">
+<div class="container alpha60" style="margin-top: 20px; color: white; background-color: #383838;">
 
 <center><h2 style="margin-top: 10px;"><b>MySQL common support issues:</b></h2></center>
-<div class="row" style=" font-size: 18px;">
+<div class="row" style="margin-top: 20px;  font-size: 18px;">
 <b>  <div class="col-md-6">
 <div class="form-check">
     <input class="form-check-input" name="group100" type="radio" id="radio100" onclick="fun1()"
-    <label class="form-check-label" for="radio100">  How do I stop a running query on my RDS instance running MySQL?</label>
+    <label class="form-check-label" for="radio100">How do I stop a running query on my RDS instance running MySQL?</label>
 </div>
 
 
@@ -110,8 +112,8 @@
                Mobile no: +919906810610,+919797108430</p>
        </div>
        <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
-        <a style="padding-right: 20px; color: white;" href="#">Why RDS?</a>
-        <a style="color: white;" href="#">Advantages of Database in cloud</a>
+        <a style="padding-right: 20px; color: white;" href="{% url 'mod1:rdsadvan' %}">Why RDS?</a>
+        <a style="color: white;" href="{% url 'mod1:database' %}">Advantages of Database in cloud</a>
        </div> 
       </footer>
     </div>

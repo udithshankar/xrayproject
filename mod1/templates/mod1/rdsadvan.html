@@ -1,0 +1,64 @@
+{% extends 'mod1/base3.html' %}
+{% block body %}
+<style type="text/css">
+  .alpha60 {
+    filter: alpha(opacity=90);
+  filter: progid: DXImageTransform.Microsoft.Alpha(opacity=90);
+  -moz-opacity: 0.00;
+  opacity: 0.9;
+}
+</style>
+<div class="container alpha60" style="background-color: #383838;">
+    <div class="row" style="color: white; margin-top: 30px;font-size: 18px; padding-left: 20px; padding-right: 20px;padding-bottom: 10px;"><hr>
+
+    <h1 style="font-size: 30px;padding-bottom: 10px;">Benefits for using AWS RDS</h1><hr>
+    <p>It’s not an exaggeration to say that Amazon Relational Database Service (AWS RDS) has radically changed the economics of running a technology startup. There are definite advantages for database developers if they use AWS RDS instead of managing their own relational database.<br>
+
+Currently Amazon RDS offers five database engines: MySQL, Oracle, SQL Server, PostgreSQL and Amazon Aurora. Also, developers can take advantage of existing commercial licenses when they use Amazon RDS. For example, if you already have an Oracle license for an on-premises database, you can use the “bring your own license” option, which will save on hourly charges.<br>
+
+So, let’s take a look at some of the most important benefits for using Amazon RDS.<br>
+
+ <li> <h2 style="font-size: 20px;padding-bottom: 10px; padding-top: 10px;">  Availability</h2></li>
+
+AWS RDS is a highly available relational database that offers a feature called Multi-AZ, which provides a SLA up-time of 99.95%. With the Multi-AZ feature enabled in a production database, AWS provides a synchronous “standby” replica of every database in another “zone.” Since both the database and its replica are in sync, there is no chance of data loss.<br>
+
+AWS also offers a domain name server (DNS) to access RDS, so even if the master database instance goes down, an RDS automatic failover mechanism will change the master DNS to a replica in order to achieve high availability.<br>
+
+    <li> <h2 style="font-size: 20px;padding-bottom: 10px; padding-top: 10px;">  Scalability</h2></li>
+
+Database scalability can prove to be a real challenge if you try to scale your own, self-hosted database. Handling mandatory downtimes due to upgrades or infrastructure requirements can be quite tricky and is just the beginning of your scalability responsibilities. That is why one of AWS RDS key advantages is its scaling service. Moreover, MySQL RDS offers two levels of scalability features: vertical and horizontal.<br>
+
+    Vertical Scalability /Scaling Up – With RDS, Amazon enables push-button vertical scaling. This means that you can scale the size of an RDS instance [memory, CPU, PIOPS etc] or disk, either up or down, with the click of a button. AWS may need to stop the instance for vertical scaling, but if you have enabled the Multi-AZ feature, AWS will apply any scaling to your replicas first to ensure that they are available for use when the master is being scaled. AWS also offers the option to either configure immediate scaling or scale during weekly maintenance during non-peak hours.<br>
+
+    Horizontal Scalability /Scaling Out – Horizontal scalability is an approach that distributes the total database across many RDS instances that will work together. RDS MySQL offers read replica functionality using MySQL’s built-in replication feature, offering read-only database instances to serve read traffic. In order to achieve true database elasticity, a database needs to scale out beyond a simple master-slave set-up.  Amazon recommends that data be distributed across multiple RDS instances. This way, each RDS contains a portion of the complete database. By utilizing ScaleBase’s AWS AMI, you can create a real distributed relational database with many RDS instances working together as one, and without making modifications to your application. This brings you massive horizontal scaling, and after scaling out to a distributed RDS database, all AWS value-added services continue to work.<br>
+
+     <li> <h2 style="font-size: 20px;padding-bottom: 10px; padding-top: 10px;"> Performance</h2></li>
+
+AWS RDS offers PIOPS (Provisioned IOPS) in order to achieve fast, consistent and predictable Input/Output (I/O) performance. This is ideal for online transaction processing (OLTP) databases or high I/O centric applications. With MySQL RDS, you can set up as many as 30,000 IOPS. The more IOPS you have set up, the more concurrent request processes increase, which in turn increases throughput and decreases latency to achieve higher database performance.<br>
+
+    <li> <h2 style="font-size: 20px;padding-bottom: 10px; padding-top: 10px;">  Backup</h2></li>
+
+AWS RDS provides two types of backup mechanisms which are both very easy to setup:<br>
+
+    Automated backup – This functionality automatically performs a full daily snapshot of a database’s data (during a preferred window of time set up by the user). It also captures your transaction logs as well as any updates to your RDS database.<br>
+
+    Point-in-Time snapshots – RDS database snapshots are user initiated. Unlike automated backup, which is performed once a day, point-in-time snapshots can be performed as many times as desired. Generally, they are useful to backup set database states, like before a major release or an application upgrade.<br>
+
+After reviewing a few of the more prominent features in RDS, we have seen just how AWS effectively handles a number of major time and resource consuming database administrative activities. Are you ready to use AWS RDS in your organization?<br></p>
+
+</div></div>
+
+
+    	<div class="f1" style="color:white;">
+      <footer class="site-footer row" style=" background: black; padding-left: 20px;">
+       <div class="col-md-6"> <h3>Contact us<br></h3>
+          <p>  Email: abc@amazon.com<br>
+               Mobile no: +919906810610,+919797108430</p>
+       </div>
+       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
+        <a style="padding-right: 20px; color: white;" href="{% url 'mod1:rdsadvan' %}">Why RDS?</a>
+        <a style="color: white;" href="{% url 'mod1:database' %}">Advantages of Database in cloud</a>
+       </div> 
+      </footer>
+    </div>
+    {% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'mod1/base3.html' %}
+{% block body %}
+<style type="text/css">
+  .alpha60 {
+    filter: alpha(opacity=90);
+  filter: progid: DXImageTransform.Microsoft.Alpha(opacity=90);
+  -moz-opacity: 0.00;
+  opacity: 0.9;
+}
+</style>
+<div class="container alpha60" style="background-color: #383838;">
+    <div class="row" style="color: white; margin-top: 50px;font-size: 18px; padding-left: 20px; padding-right: 20px;padding-bottom: 10px;">
+    	<h1 style="font-size: 30px;padding-bottom: 10px;">7 Benefits of Using a Cloud Database Service</h1><hr>
+    	<div>
+    		<div col-md-6 style="padding-left: 250px; padding-bottom: 20px;"><img src="../../static/mod1/images/IOT.png"></div>
+    		<p>Moving your database to the cloud doesn’t have to require your current IT team drop what they’re doing and focus on a cloud migration.  There are services available to help you make the move.  There are many benefits to using a service provider, here are 7 of them:<br>
+
+    1.Migration speed – using a team of experienced professionals eliminates the “uh oh” situations created by not understanding the challenges associated with developing and executing cloud database strategies.<br>
+
+    2.Fully benefit from AWS, Azure and Google Cloud – using a managed services provider, you get the advantages of these cloud products with the monitoring, backup and disaster recovery to best fit your needs.<br>
+
+    3.Ensure optimum database performance, access, protection, compliance, availability, and scalability plus continuously manage the environment to ensure database optimization and maximum performance.<br>
+
+    4.Ensure predictable performance — Analyzing and tuning each data set to match the workflow characteristics helps ensure the most predictable cloud database and application performance.<br>
+
+    5.Compliance —solutions are implemented to satisfy organizations’ compliance requirements such as HIPAA and PCI<br>
+
+    6.Reduce database TCO — when moving to the cloud, there is opportunity to consolidate your databases and realize up to a 50 percent database consolidation ratio, reducing IT management efforts and database license costs.<br>
+
+    7.Mitigate risk — by following industry best practices, you have peace of mind knowing that your cloud databases are protected, secure, and private.<br></p>
+</div>
+</div>
+</div>
+
+
+	<div class="f1" style="color:white;">
+      <footer class="site-footer row" style=" background: black; padding-left: 20px;">
+       <div class="col-md-6"> <h3>Contact us<br></h3>
+          <p>  Email: abc@amazon.com<br>
+               Mobile no: +919906810610,+919797108430</p>
+       </div>
+       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
+        <a style="padding-right: 20px; color: white;" href="{% url 'mod1:rdsadvan' %}">Why RDS?</a>
+        <a style="color: white;" href="{% url 'mod1:database' %}">Advantages of Database in cloud</a>
+       </div> 
+      </footer>
+    </div>
+    {% endblock %}

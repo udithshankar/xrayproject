@@ -1,6 +1,14 @@
 {% extends 'mod1/base3.html' %}
 {% block body %}
- <div class="container" style="background-color: #383838;">
+<style type="text/css">
+  .alpha60 {
+    filter: alpha(opacity=90);
+  filter: progid: DXImageTransform.Microsoft.Alpha(opacity=90);
+  -moz-opacity: 0.90;
+  opacity: 0.9;
+}
+</style>
+ <div class="container alpha60" style="background-color: #383838;">
     <div class="row" style="color: white; margin-top: 70px;font-size: 18px;">
 
    <div class="col-md-6">
@@ -56,7 +64,7 @@
              </div>
              </div>
           </div>
-        </div><hr>
+        </div>
         <div class="f1" style="color:white;">
       <footer class="site-footer row" style=" background: black; padding-left: 20px;">
        <div class="col-md-6"> <h3>Contact us<br></h3>
@@ -64,8 +72,8 @@
                Mobile no: +919906810610,+919797108430</p>
        </div>
        <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
-        <a style="padding-right: 20px; color: white;" href="#">Why RDS?</a>
-        <a style="color: white;" href="#">Advantages of Database in cloud</a>
+        <a style="padding-right: 20px; color: white;" href="{% url 'mod1:rdsadvan' %}">Why RDS?</a>
+        <a style="color: white;" href="{% url 'mod1:database' %}">Advantages of Database in cloud</a>
        </div> 
       </footer>
     </div>

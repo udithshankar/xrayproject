@@ -52,7 +52,7 @@
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/rds.jpg) 
+    background-image: url(../images/rds11.jpg);
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url(../images/mysql.jpg);
@@ -206,4 +206,8 @@
 }
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
+}
+
+.codrops-top{
+    padding-top: 0px;
 }

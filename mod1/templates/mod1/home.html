@@ -18,6 +18,7 @@
        <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/style.css' %}"/>
         <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/demo.css' %}" />
         <link rel="stylesheet" type="text/css" href="{% static 'mod1/css/style1.css' %}" />
+        <link rel="stylesheet" type="text/css" href="{% static 'mod1/js/bootstrap.min.js' %}" />
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -37,6 +38,14 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
   </script>
+  <style type="text/css">
+  .alpha60 {
+    filter: alpha(opacity=90);
+  filter: progid: DXImageTransform.Microsoft.Alpha(opacity=90);
+  -moz-opacity: 0.90;
+  opacity: 0.9;
+}
+</style>
     </head>
     <body id="page">
         <ul class="cb-slideshow">
@@ -55,8 +64,8 @@
                     <strong>&laquo; RDS Helpdesk: </strong>Learn about Common Support Issues
                 </a>
                 <span class="right" style="margin-right: 15px;">
-                    <a href="{% url 'mod1:home' %}" target="_blank">Home</a>
-                    <a href="#about1" target="_blank">About</a>
+                    <a href="{% url 'mod1:home' %}" >Home</a>
+                    <a href="#about1">About</a>
                     <a href="{% url 'mod1:myaccount' %}">
                         Myaccount
                     </a>
@@ -68,16 +77,16 @@
             </div><!--/ Codrops top bar -->
              <div class="container-fluid">
             <header>
-                <h1>Amazon RDS <span>Website</span></h1>
+                <h1><span class="well well-sm" style="color: #cc301e; text-decoration: none;">Amazon RDS Website</span></h1><br>
                 <h2>Know About Various Features of RDS</h2>
         <p class="codrops-demos">
-          <a href="{% url 'mod1:rds' %}" class="current-demo">About RDS</a>
+          <a href="{% url 'mod1:rds' %}">About RDS</a>
           <a href="{% url 'mod1:mysql' %}">About Mysql</a>
           <a href="{% url 'mod1:oracle' %}">About Oracle</a>
           <a href="{% url 'mod1:mariadb' %}">About MariaDB</a>
         </p>
             </header>
-      <div style="margin-top: 900px; margin-bottom: 300px; padding-top: 30px; background-color: #383838;">
+      <div class="alpha60" style="margin-top: 900px; margin-bottom: 300px; padding-top: 30px; background-color: #383838;">
               
        <div class="row">
          <div class="col-md-4"><a href="{% url 'mod1:aurora' %}"><img src="https://s3.ap-south-1.amazonaws.com/xray-frontend/Aurora.jpg" href="google.com"></a></div>
@@ -87,7 +96,7 @@
 
     
 
-  <div id="about1" style="padding-left: 20px; padding-right: 10px;padding-top: 30px; color: white;">
+  <div id="about1" style="padding-left: 20px; padding-right: 10px;padding-top: 30px; padding-bottom: 30px; color: white;"><hr>
   <center> <strong> <h1 style="font-size: 35px;">About us:</h1></strong></center><hr/><p style="font-size: 30px; text-align: justify; padding-top: 30px;: ">The RDS mission is to provide you with environmentally-friendly digital printing solutions that help you reduce costs and improve business efficiency.
 
 Our expertise in digital document and printing solutions is a result of the many years of experience in the industry. With our remote diagnostic center, proactive maintenance program, and highly skilled technicians, our goal is to minimize your worry and maximize your productivity. Learn more about our products and services
@@ -107,8 +116,8 @@ With over 4,000 units in stock, RDS is South Florida’s premier source for Mult
                Mobile no: +919906810610,+919797108430</p>
        </div>
        <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
-        <a style="padding-right: 20px; color: white;" href="#">Why RDS?</a>
-        <a style="color: white;" href="#">Advantages of Database in cloud</a>
+        <a style="padding-right: 20px; color: white;" href="{% url 'mod1:rdsadvan' %}">Why RDS?</a>
+        <a style="color: white;" href="{% url 'mod1:database' %}">Advantages of Database in cloud</a>
        </div> 
       </footer>
     </div>

@@ -1,7 +1,20 @@
-{% extends 'mod1/base2.html'%}
+{% extends 'mod1/base3.html'%}
 {% block body %}
-<div style="padding-left: 450px; padding-top: 150px; font-size: 20px; padding-bottom: 250px; background-color: deepskyblue;">
-<p>Username: {{user.username}}</p>
-<p>Email: {{user.email}}</p>
+<div style="padding-left: 800px; padding-top: 300px; padding-right: 850px; font-size: 20px; padding-bottom: 250px;">
+  <h3 style="background-color: yellow;"> Username: {{user.username}}
+   </br></br>
+Email: {{user.email}}</h3>
 </div>
+ <div class="f1" style="color:white; position: fixed;">
+      <footer class="site-footer row" style=" background: black; padding-left: 20px;">
+       <div class="col-md-6"> <h3>Contact us<br></h3>
+          <p>  Email: abc@amazon.com<br>
+               Mobile no: +919906810610,+919797108430</p>
+       </div>
+       <div class="col-md-6" style="text-align: right; padding-right: 50px; padding-top: 20px;">
+        <a style="padding-right: 20px; color: white;" href="{% url 'mod1:rdsadvan' %}">Why RDS?</a>
+        <a style="color: white;" href="{% url 'mod1:database' %}">Advantages of Database in cloud</a>
+       </div> 
+      </footer>
+    </div>
 {% endblock%}

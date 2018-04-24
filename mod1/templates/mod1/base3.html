@@ -18,18 +18,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
      <script type="text/javascript" src="{% static 'mod1/js/modernizr.custom.86080.js' %}"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="{%static 'mod1/js/bootstrap.min.js' %}"></script>
+  
   </head>
    <body style="background-image: url(../../static/mod1/images/main1.png); background-attachment: fixed;">
     <!--Navbar start-->
-    <!-- Codrops top bar -->
-            <div class="codrops-top" style=" position: fixed;">
+    <!-- Codrops top bar--> 
+            <div class="codrops-top" style="margin-top: 0px; position: fixed;">
                 <a>
                     <strong>&laquo; RDS Helpdesk: </strong>Learn about Common Support Issues
                 </a>
                 <span class="right" style="margin-right: 15px;">
-                    <a href="{% url 'mod1:home' %}" target="_blank">Home</a>
-                    <a href="#about1" target="_blank">About</a>
+                    <a href="{% url 'mod1:home' %}">Home</a>
+                    <a href="#about1">About</a>
                     <a href="{% url 'mod1:myaccount' %}">
                         Myaccount
                     </a>
