@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-
+from aws_xray_sdk.core import xray_recorder
+from aws_xray_sdk.core import patch_all
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -39,11 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
      'mod1',
      'widget_tweaks',
-     
+     'aws_xray_sdk.ext.django',
 ]
 
 MIDDLEWARE = [
-    
+    'aws_xray_sdk.ext.django.middleware.XRayMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,6 +53,19 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware'
 ]
+
+XRAY_RECORDER = {
+    'AWS_XRAY_TRACING_NAME': 'My application',
+    'AWS_XRAY_DAEMON_ADDRESS': '127.0.0.1:2001',
+    'AUTO_INSTRUMENT': True,  # If turned on built-in database queries and temp$
+    'AWS_XRAY_CONTEXT_MISSING': 'LOG_ERROR',
+    'PLUGINS': (''),
+    'SAMPLING': True,
+    'SAMPLING_RULES': None,
+#    'AWS_XRAY_TRACING_NAME': None, # the segment name for segments generated f$
+    'DYNAMIC_NAMING': None, # defines a pattern that host names should match
+    'STREAMING_THRESHOLD': None, # defines when a segment starts to stream out $
+}
 
 ROOT_URLCONF = 'xray.urls'
 
